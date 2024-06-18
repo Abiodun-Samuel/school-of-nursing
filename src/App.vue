@@ -1,30 +1,22 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-</script>
+<script setup></script>
 
 <template>
   <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+    <img
+      src="https://img.freepik.com/free-vector/mining-concept-online-service-platform-mineral-natural-resources-extraction-worker-uniform-with-pickaxe-website-vector-flat-illustration_613284-1302.jpg?t=st=1718711069~exp=1718714669~hmac=89b856485a2f287bb1b20bda9ef98720d5d58165cc78569a40960ff3f9e6aec1&w=740"
+      class="logo vue"
+      alt="Vue logo"
+    />
   </div>
-  <HelloWorld msg="Vite + Vue" />
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+div img {
+  max-width: 100%;
 }
 </style>
