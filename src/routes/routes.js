@@ -16,11 +16,6 @@ export default [
         component: () => import("../views/about/index.vue"),
       },
       {
-        path: "service",
-        name: "service",
-        component: () => import("../views/service/index.vue"),
-      },
-      {
         path: "contact",
         name: "contact",
         component: () => import("../views/contact/index.vue"),
