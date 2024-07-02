@@ -56,15 +56,51 @@ This files table contents are outlined below>>>>>
 Default CSS
 =================================================*/
 :root {
-  --fontFamily: "Lexend", sans-serif;
-  --mainColor: #2eca7f;
+  --fontFamily: "Poppins", sans-serif;
+  /* --mainColor: #2eca7f; */
   --secounderyColor: #f2f8f1;
   --paragraphColor: #7a7a7a;
   --paragraphColorSecond: #b9b9ba;
   --whiteColor: #ffffff;
-  --blackColor: #002147;
+  /* --blackColor: #002147; */
   --fontSize: 16px;
   --transition: 0.5s;
+
+  /* CSS HEX */
+  --blackColor: #0c3865;
+  --mainColor: #db291b;
+  --neptune: #84c0b7;
+  --cararra: #f1f2ee;
+  --smalt-blue: #518191;
+  --old-gold: #d2ae3f;
+  --jungle-mist: #b7cfd3;
+  --xanadu: #747876;
+  --boston-blue: #3a80b7;
+  --boston-blue: #3c8cbc;
+
+  /* SCSS HEX */
+  /* $madison: #0c3865;
+  $alizarin-crimson: #db291b;
+  $neptune: #84c0b7;
+  $cararra: #f1f2ee;
+  $smalt-blue: #518191;
+  $old-gold: #d2ae3f;
+  $jungle-mist: #b7cfd3;
+  $xanadu: #747876;
+  $boston-blue: #3a80b7;
+  $boston-blue: #3c8cbc; */
+
+  /* SCSS RGB */
+  --madison: rgba(12, 56, 101, 1);
+  --alizarin-crimson: rgba(219, 41, 27, 1);
+  --neptune: rgba(132, 192, 183, 1);
+  --cararra: rgba(241, 242, 238, 1);
+  --smalt-blue: rgba(81, 129, 145, 1);
+  --old-gold: rgba(210, 174, 63, 1);
+  --jungle-mist: rgba(183, 207, 211, 1);
+  --xanadu: rgba(116, 120, 118, 1);
+  --boston-blue: rgba(58, 128, 183, 1);
+  --boston-blue: rgba(60, 140, 188, 1);
 }
 
 body {
