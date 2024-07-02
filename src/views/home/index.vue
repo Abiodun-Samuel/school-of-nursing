@@ -15,7 +15,11 @@
           <div class="buttons-action" data-aos="fade-up" data-aos-delay="100">
             <router-link class="default-btn" to="/about">Read More</router-link>
           </div>
-          <div class="vertical-lr mb-0" data-aos="fade-zoom-in" data-aos-delay="100">
+          <div
+            class="vertical-lr mb-0"
+            data-aos="fade-zoom-in"
+            data-aos-delay="100"
+          >
             <p>World-Class <span>Education</span></p>
           </div>
         </div>
@@ -23,4 +27,10 @@
     </div>
   </div>
   <!-- End Clgun Banner 2 Area -->
+
+  <About />
 </template>
+
+<script setup>
+import About from "../../components/section/About.vue";
+</script>

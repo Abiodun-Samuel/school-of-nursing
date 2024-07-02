@@ -499,39 +499,6 @@ $(window).on("scroll", function () {
 //   },
 // });
 
-// // About Content Slides
-// $(".about-content-courser").owlCarousel({
-//   loop: true,
-//   nav: true,
-//   dots: true,
-//   dotsData: true,
-//   autoplayHoverPause: true,
-//   autoplay: true,
-//   margin: 30,
-//   items: 3,
-//   navText: [
-//     "<i class='bx bx-arrow-back bx-rotate-180'></i>",
-//     "<i class='bx bx-arrow-back bx-rotate-0'></i>",
-//   ],
-//   responsive: {
-//     0: {
-//       items: 1,
-//     },
-//     576: {
-//       items: 1,
-//     },
-//     768: {
-//       items: 1,
-//     },
-//     992: {
-//       items: 1,
-//     },
-//     1200: {
-//       items: 1,
-//     },
-//   },
-// });
-
 // // Popup Video
 // $(".popup-youtube").magnificPopup({
 //   disableOn: 320,

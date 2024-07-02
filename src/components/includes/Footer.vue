@@ -1,6 +1,6 @@
 <template>
   <!-- Start Subscribe Area 2 -->
-  <div class="subscribe-area subscribe-area-2">
+  <!-- <div class="subscribe-area subscribe-area-2">
     <div class="container">
       <div
         class="section-title section-title-2"
@@ -21,7 +21,7 @@
         <a class="default-btn">Subscribe Now</a>
       </div>
     </div>
-  </div>
+  </div> -->
   <!-- End Subscribe Area 2 -->
 
   <!-- Start Footer Area -->
