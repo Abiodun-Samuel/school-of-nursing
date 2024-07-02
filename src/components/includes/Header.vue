@@ -27,15 +27,15 @@
             alt="logo"
           />
         </router-link>
-
-        <button
+        <a
           class="navbar-toggler"
           data-bs-toggle="offcanvas"
+          href="#navbarOffcanvas"
           role="button"
           aria-controls="navbarOffcanvas"
         >
           <Icon icon="gg:menu-grid-o" />
-        </button>
+        </a>
         <div class="collapse navbar-collapse justify-content-between">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
@@ -154,7 +154,7 @@
   >
     <div class="offcanvas-header">
       <router-link to="/" class="logo d-inline-block">
-        <img class="logo-light" src="/assets/images/logo-sm-2.png" alt="logo" />
+        <img class="logo-light" width="80" src="/assets/images/logo-sm-2.png" alt="logo" />
       </router-link>
       <button
         type="button"
@@ -314,48 +314,9 @@
           </div>
         </div>
         <div class="accordion-item">
-          <router-link class="accordion-link without-icon" to="contact-us.html">
+          <router-link class="accordion-link without-icon" to="/">
             Contact Us
           </router-link>
-        </div>
-      </div>
-      <div class="offcanvas-contact-info">
-        <h4>Contact Info</h4>
-        <ul class="contact-info list-style">
-          <li>
-            <i class="bx bxs-envelope"></i>
-            <router-link to="contact%40Clgunme.html"
-              ><span
-                class="__cf_email__"
-                data-cfemail="98fbf7f6ecf9fbecd8dbf4ffedf6f5fdb6fdfced"
-                >[email&#160;protected]</span
-              ></router-link
-            >
-          </li>
-        </ul>
-        <!-- <ul class="social-profile list-style">
-          <li>
-            <router-link to="https://www.fb.com/" target="_blank"
-              ><i class="bx bxl-facebook"></i
-            ></router-link>
-          </li>
-          <li>
-            <router-link to="https://www.instagram.com/" target="_blank"
-              ><i class="bx bxl-instagram"></i
-            ></router-link>
-          </li>
-          <li>
-            <router-link to="https://www.linkedin.com/" target="_blank"
-              ><i class="bx bxl-linkedin"></i
-            ></router-link>
-          </li>
-        </ul> -->
-      </div>
-      <div class="offcanvas-other-options">
-        <div class="option-item">
-          <router-link to="contact-us.html" class="default-btn"
-            >Contact Us</router-link
-          >
         </div>
       </div>
     </div>
