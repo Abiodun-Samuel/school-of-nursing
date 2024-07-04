@@ -537,12 +537,12 @@ Banner Area 2 CSS
 .banner-content-2 .content h1 {
   color: var(--whiteColor);
   font-family: "Lexend", sans-serif;
-  font-size: 90px;
+  /* font-size: 90px; */
 }
 
 .banner-content-2 .content p {
   color: #fff;
-  font-size: 20px;
+  /* font-size: 20px; */
   margin-bottom: 40px;
   width: 70%;
   margin: auto;
@@ -957,7 +957,7 @@ About Us Area 2 CSS
   margin-bottom: 30px;
 }
 .about-us-area-2 .section-title p {
-  font-size: 20px;
+  /* font-size: 20px; */
   width: 70%;
   margin: auto;
 }
@@ -976,7 +976,7 @@ About Us Area 2 CSS
 }
 
 .about-us-area-2 .content-items .image.ct-bg-1 {
-  background-image: url(../img/all-img/about-image-2.png);
+  background-image: url('../assets/images/banner/about-image-4.png');
 }
 
 .about-us-area-2 .content-items .image.ct-bg-2 {
@@ -1040,7 +1040,7 @@ About Us Area 2 CSS
   margin-bottom: 30px;
 }
 .global-alumni-events .image {
-  background-image: url(../img/all-img/about-image-4.png);
+  background-image: url("../images/banner/about-image-4.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

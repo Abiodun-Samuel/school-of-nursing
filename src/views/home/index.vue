@@ -27,10 +27,13 @@
     </div>
   </div>
   <!-- End Clgun Banner 2 Area -->
-
-  <About />
+  <AboutSection />
+  <NewsSection/>
+  <GallerySection/>
 </template>
 
 <script setup>
-import About from "../../components/section/About.vue";
+import AboutSection from "../../components/section/homepage/AboutSection.vue";
+import NewsSection from "../../components/section/homepage/NewsSection.vue";
+import GallerySection from "../../components/section/homepage/GallerySection.vue";
 </script>
